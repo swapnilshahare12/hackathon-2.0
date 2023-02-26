@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: #284943;
+}
+
+.audio{
+  display:none;
+}
+
+
+.w {
+  background-image: url("https://delegent.github.io/Drumkit/images/tom1.png");
+}
+
+.a {
+  background-image: url("https://delegent.github.io/Drumkit/images/tom2.png");
+}
+
+.s {
+  background-image: url("https://delegent.github.io/Drumkit/images/tom3.png");
+}
+
+.d {
+  background-image: url("https://delegent.github.io/Drumkit/images/tom4.png");
+}
+
+.j {
+  background-image: url("https://delegent.github.io/Drumkit/images/snare.png");
+}
+
+.k {
+  background-image: url("https://delegent.github.io/Drumkit/images/crash.png");
+}
+
+.l {
+  background-image: url("https://delegent.github.io/Drumkit/images/kick.png");
+}
+
+.container {
+  margin: 10% auto;
+}
+
+
+
+.pressed {
+  box-shadow: 0 0 4px #DBEDF3;
+  opacity: 0.8;
+}
+
+
+.drum {
+  line-height: 2;
+  border: 10px solid #4c5a77;
+  font-size: 75px;
+  font-weight: bolder;
+  color: #DA0463;
+  text-shadow: 3px 3px 5px #000000;
+  border-radius: 20px;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  text-shadow: 3px 3px 5px  #000000;
+}
+@media screen and (max-width:500px) {
+  h1{
+    font-size: 60px;
+  }
+}
+@media screen and (max-width:355px) {
+  h1{
+    font-size: 50px;
+  }
+}
